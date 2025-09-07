@@ -9,7 +9,8 @@ This WebApp uses MongoDB as a database to store all credentials and data.
 3. **ExpressJS** - as a light, unopinionated application framework 
 4. **Passport** - for user authentication strategies
 6. **Cloudinary** - for image hosting 
-7. **Mapbox** - for map rendering
+7. **Leaflet.js** - For map rendering and property location display.
+8. **WebSockets (Socket.IO)** - For enabling real-time chat between brokers and users.
 
 ### Frontend
 1. EJS
@@ -42,7 +43,6 @@ npm i
 * CLOUDINARY_CLOUD_NAME
 * CLOUDINARY_KEY
 * CLOUDINARY_SECRET
-* MAPBOX_TOKEN
 * DB_URL
 
 ## Contributing
